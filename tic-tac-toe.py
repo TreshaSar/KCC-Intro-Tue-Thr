@@ -38,7 +38,7 @@ def switchPlayer(player):
         player = "O"
     else:
         player = "X"
-
+    drawBoard(board)  
     print ("It's your turn " + player + ".")
     return player
     
